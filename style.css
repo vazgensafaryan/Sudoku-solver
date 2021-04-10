@@ -1,0 +1,25 @@
+#SudokuBoard {
+    display: table;
+    border-style: solid;
+    padding: 10px;
+}
+
+#errorContainer, #solvedContainer {
+    display: none;
+}
+
+#solve, #clear {
+    background-color: darkgreen;
+    color: white;
+    letter-spacing: 2px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+}
+
+#solve:hover, #clear:hover {
+    background-color: brown;
+    transition: 0.2s;
+}
